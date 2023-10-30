@@ -1,17 +1,6 @@
-import React, {useEffect, useState} from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-  Alert,
-  ImageBackground,
-  TextInput,
-  FlatList,
-  Image,
-} from 'react-native';
+import React from 'react';
+import {View, Text, StyleSheet, ImageBackground, Image} from 'react-native';
 import {DetailScreenNavigationProp, DetailScreenRouteProp} from '../navigation';
-import request from 'superagent';
-import Icon from 'react-native-vector-icons/FontAwesome';
 
 const DetailScreen: React.FC<{
   navigation: DetailScreenNavigationProp;
